@@ -1,0 +1,42 @@
+.eng.active {
+    display: flex;
+}
+
+.esp.active {
+    display: flex;
+}
+
+.eng {
+    display: none;
+}
+
+.esp {
+    display: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#cabecera {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: black;
+    width: 60%;
+}
+
+#cabecera p {
+    margin: 0;
+}
+
+#perfil {
+    border-radius: 30px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: black;
+    margin: 25px;
+}
