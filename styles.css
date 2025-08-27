@@ -1,9 +1,11 @@
 .eng.active {
     display: flex;
+    justify-content: center;
 }
 
 .esp.active {
     display: flex;
+    justify-content: center;
 }
 
 .eng {
@@ -17,9 +19,11 @@
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 #cabecera {
+    background-color: darkgrey;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -27,6 +31,8 @@ body {
     border-width: 1px;
     border-color: black;
     width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #cabecera p {
@@ -39,4 +45,63 @@ body {
     border-width: 3px;
     border-color: black;
     margin: 25px;
+}
+
+#Estudios {
+    border-style: ridge;
+    border-width: 1px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Estudios div{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Estudios h2{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+
+#Experiencias {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Experiencias div{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Experiencias h2{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.elementoLista {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.elementoLista p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 2%;
 }
