@@ -105,3 +105,29 @@ body {
     margin-bottom: 0px;
     margin-right: 2%;
 }
+
+#Habilidades {
+    border-style: ridge;
+    border-width: 1px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Habilidades div{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Habilidades h2{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
