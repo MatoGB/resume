@@ -1,11 +1,11 @@
 .eng.active {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .esp.active {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .eng {
@@ -30,9 +30,6 @@ body {
     border-style: ridge;
     border-width: 1px;
     border-color: black;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 #cabecera p {
@@ -44,7 +41,22 @@ body {
     border-style: ridge;
     border-width: 3px;
     border-color: black;
-    margin: 25px;
+    margin: 1.5%;
+}
+
+#infoPerfil {
+    margin-left: 4%;
+}
+
+#Contacto {
+    border-style: ridge;
+    border-width: 1px;
+    border-color: black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 5%;
+    height: 30%;
 }
 
 #Estudios {
@@ -52,52 +64,56 @@ body {
     border-width: 1px;
     border-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    padding: 5%;
+    height: 35%;
 }
 
 #Estudios div{
     width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 #Estudios h2{
     width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
     margin-top: 2%;
     margin-bottom: 0px;
 }
 
 #Experiencias {
+    padding: 5%;
+    padding-left: 8%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    align-items: start;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: black;
 }
 
 #Experiencias div{
     width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 #Experiencias h2{
     width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    justify-content: flex-end;
+}
+
+#Experiencias h3{
+    width: 60%;
+    justify-content: flex-start;
+}
+
+#Experiencias h5{
+    width: 60%;
+    justify-content: flex-start;
 }
 
 .elementoLista {
     display: flex;
     justify-content: space-evenly;
-    margin: 5px;
 }
 
 .elementoLista p {
@@ -107,27 +123,55 @@ body {
 }
 
 #Habilidades {
+    padding: 5%;
     border-style: ridge;
     border-width: 1px;
     border-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    height: 35%;
 }
 
 #Habilidades div{
     width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 #Habilidades h2{
     width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
     margin-top: 2%;
     margin-bottom: 0px;
+}
+
+#cuerpo{
+    margin: 0px;
+    width: 100%;
+}
+
+#listaExperiencias {
+    width: 80%;
+    align-content: flex-start;
+    margin: 15px;
+}
+
+#listaExperiencias2 {
+    width: 80%;
+    align-content: flex-start;
+    margin: 15px;
+}
+
+#listaHabilidades {
+    width: 90%;
+    align-content: flex-start;
+    margin: 15px;
+}
+
+#listaEstudios {
+    width: 90%;
+    align-content: flex-start;
+    margin: 15px;
+}
+
+.boton {
+    cursor: pointer;
 }
